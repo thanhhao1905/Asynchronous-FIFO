@@ -1,2 +1,0 @@
-# Asynchronous-FIFO
-Asynchronous FIFO
