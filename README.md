@@ -25,7 +25,7 @@ This design is a fundamental building block for robust and reliable System on a 
 
 * **Verilog HDL:** The design is written in Verilog, a widely used hardware description language.
 * **Gray Code Pointers:** The read and write pointers are implemented using Gray code to ensure that only a single bit changes at a time. This is critical for preventing synchronization issues when passing the pointers between clock domains.
-* **Full/Empty Flags:** The design includes logic to generate full and empty flags, allowing the user to know the status of the FIFO and prevent underflow or overflow.
+* **Full/Empty Flags:** The design includes logic to generate `full` and `empty` flags, allowing the user to know the status of the FIFO and prevent underflow or overflow.
 * **Simple Interface:** The module has a clear and easy-to-use interface, making it simple to integrate into larger designs.
 
 
