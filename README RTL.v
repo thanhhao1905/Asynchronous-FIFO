@@ -1,4 +1,3 @@
-````verilog
 module synchronous_2ff #(parameter Width = 3) (input clk, rst_n, 
                                                input [Width :0] d_in,
                                                output reg [Width :0] d_out);
